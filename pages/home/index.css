@@ -1,0 +1,36 @@
+.doclist {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .5rem;
+    background-color: #e6e6e6;
+}
+
+.docitem {
+    text-align: center;
+    border: 1px dotted grey;
+    padding: 1rem 1rem 0 1rem;
+    margin: .5rem 0;
+    background:#ffd699;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+.docitem:hover {
+    background:#ffa31a;
+}
+
+
+
+
+@media (min-width: 575px) {
+    .doclist {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .docitem {
+        width: 30%;
+        margin: .5rem;
+    }
+}
