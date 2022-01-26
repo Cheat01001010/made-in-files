@@ -86,5 +86,6 @@ function el(selector) {
  *   Referências: https://www.w3schools.com/jsref/met_document_queryselectorall.asp
  */
 function els(selector) {
-    return document.querySelectorAll(selector);
-}
+    return document.querySelectorAll(selector);}
+
+   

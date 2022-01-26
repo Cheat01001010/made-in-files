@@ -38,11 +38,11 @@
   ],
   "config": {
     "clientWidth": "768",
-    "appName": "My.Docs.App",
+    "appName": "Made in Files",
     "appSlogan": "Seus documentos em nossas mãos.",
     "separator": ".:.",
     "appLogo": "assets/img/logo_64.png",
-    "copyright": "2021 Joca da Silva"
+    "copyright": "2022 Teste"
   },
   "social": [
     {

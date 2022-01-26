@@ -11,3 +11,4 @@ setPage('send');
 
 // Título da página
 setTitle('Enviar documento');
+function appendTheFile (url) {     url = new URL(url) }
